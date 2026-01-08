@@ -29,10 +29,10 @@ html {
      scroll-behavior: smooth;
 }
 body{
-     font-family: Arial, Helvetica, sans-serif;
 direction: rtl;
 overflow-x: hidden;
 background-color:  rgba(224, 224, 224, 1);
+   font-family: "Cairo", sans-serif; 
 }
  .container {
     width: 75%;
@@ -78,7 +78,7 @@ nav ul li a {
       -o-transition:0.3s;
 }
  a:hover {
-     color:var(--text-color) ;
+     color:rgba(255, 145, 0, 0.955) ;
 }
 nav .btn button {
       width: 160px;
@@ -243,10 +243,10 @@ grid-template-columns: repeat(4,1fr);
     font-size: 20px;
     border: none;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     margin-top: 10px;
 }
 /* hero section */
@@ -697,10 +697,10 @@ list-style-type: none;
     border-radius: 10px;
     border: 2px solid var(--bg-color);
     margin-bottom: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
  .filter-card h2 {
      font-size: 25px;
